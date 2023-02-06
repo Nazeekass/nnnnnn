@@ -5,17 +5,45 @@
 <body>
     <form action="">
         <div class="input-group1">
-            <Label for="name"> Name:</Label>
-            <input type="name" placeholder="name" required>
+            <label for="name">Имя*</label>
+            <input type="text" placeholder="Имя" required>
         </div>
 
         <div class="input-group1">
-            <Label for="Fname"> First Name</Label>
-            <input type="Fname" placeholder="Fname" required>
+            <label for="">Телефон*</label>
+            <input type="text"  placeholder="Телефон" required>
         </div>
-        
-        <button class="input-button1" type="register">Login</button>
-        <a href=""></a>
+
+        <div class="input-group1">
+            <Label for="email"> Email</Label>
+            <input type="email" placeholder="E-mail" required>
+        </div>
+
+        <div class="input-group1">
+            <Label for="password"> Пароль*</Label>
+            <input type="password" placeholder="Пароль" required>
+        </div>
+
+        <div class="select">
+        <label for="years">Выберите год</label>
+            <select name="years" id="years">
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select>
+        </div>
+
+        <div class="radio">
+            <input type="radio" id="Мужской" name="gender" value="Мужской" checked>
+            <label for="Мужской">Мужской</label>
+            <input type="radio" id="Женский" name="gender" value="Женский" checked>
+            <label for="Женский">Женский</label>
+        </div>
+
+        <button class="input-button1" type="register">Зарегистрироваться</button>
+
+        <p><a href="index.html"> У вас уже есть аккаунт?</a></p>
 
     </form>
 </body>
